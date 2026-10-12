@@ -1,0 +1,63 @@
+html {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(33, 1, 1), rgb(131, 1, 1));
+}
+
+main {
+    border-radius: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.459);
+    padding: 20px;
+}
+
+.material-symbols-outlined {
+    color: white;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+#gmail,
+#senha {
+    box-shadow: inset 1px 1px 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(158, 18, 18);
+    display: flex;
+    width: 200px;
+    text-align: left
+}
+
+span {
+    margin-right: 5px;
+}
+
+h1,
+p {
+    text-align: center;
+    color: white;
+}
+
+.button>input {
+    position: relative;
+    left: 33%;
+    transform: translate(-33%);
+    background-color: rgb(158, 18, 18);
+    border: 1px 1px 1px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 8px;
+
+}
