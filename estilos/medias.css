@@ -75,7 +75,7 @@
     .button {
         position: relative;
         top: 0%;
-        left: -8%;
+        left: -14%;
     }
 
     h1 {
@@ -87,4 +87,5 @@
     p {
         margin: 0%;
     }
+
 }

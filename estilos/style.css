@@ -50,17 +50,7 @@ p {
     color: white;
 }
 
-.button>input {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    background-color: rgb(158, 18, 18);
-    border: 1px 1px 1px solid black;
-    margin-left: 2px;
-    margin-right: 2px;
-    border-radius: 8px;
-
-}
+.button>input {}
 
 img {
     display: block;
@@ -71,8 +61,29 @@ img {
 
 .e {
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(158, 18, 18);
+    box-shadow: inset 1px 1px 2px rgb(0, 0, 0);
+    border: none;
+    margin-bottom: 5px;
+    width: 90%;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
     top: 0%;
     left: 50%;
+    border-radius: 8px;
+    height: 23px;
+    font-weight: bold;
+}
+
+.e:hover {
+    background-color: rgb(255, 28, 28);
+    box-shadow: inset 1px 1px 2px rgb(0, 0, 0);
+    color: white;
+    transition: all .3s ease;
 }
 
 #passwor,
