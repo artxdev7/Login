@@ -52,12 +52,19 @@ p {
 
 .button>input {
     position: relative;
-    left: 33%;
-    transform: translate(-33%);
+    left: 50%;
+    transform: translate(-50%);
     background-color: rgb(158, 18, 18);
     border: 1px 1px 1px solid black;
     margin-left: 2px;
     margin-right: 2px;
     border-radius: 8px;
 
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 200px;
 }
